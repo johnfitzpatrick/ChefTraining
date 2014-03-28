@@ -7,6 +7,6 @@
 # All rights reserved - Do Not Redistribute
 #
 template "/etc/motd" do
-   surce "motd.erb"
+   sorce "motd.erb"
    mode "0644"
  end
