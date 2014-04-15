@@ -6,7 +6,8 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-template "/etc/motd" do
-   sorce "motd.erb"
-   mode "0644"
- end
+
+template '/etc/motd' do
+  sorce 'motd.erb'
+  mode '0644'
+end

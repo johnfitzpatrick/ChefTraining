@@ -1,9 +1,9 @@
-name             'motd'
-maintainer       'YOUR_NAME'
+name 'motd'
+maintainer 'YOUR_NAME'
 maintainer_email 'YOUR_EMAIL'
-license          'All rights reserved'
-description      'Installs/Configures motd'
+license 'All rights reserved'
+description 'Installs/Configures motd'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          '0.1.0'
+version '0.1.0'
 
-depends "pci"
+depends 'pci'
